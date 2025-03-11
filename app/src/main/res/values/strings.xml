@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Instant Messages</string>
+    <string name="mi_nombre">Karen Bohorquez contreras</string>"
+    <string name="Texto_introductorio">Inicia una nueva aventura con Instant Messages y descubre una nueva forma de ver el mundo</string>
+    <string name="comienza">Comienza</string>
+    <string name="registro"> Registrate</string>
+    <string name="Texto_bienvenida_login">La aventura esta por iniciar, por favor inicia sesión</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="Recuperar_contraseña">Recupera Tu Contraseña</string>
+    <string name="No_tienes_cuenta">No tienes cuenta?</string>
+    <string name="Instrucciones_para_registro">¡Crea tu cuenta en pocos pasos!
+Por favor, completa los siguientes campos con tu información</string>
+    <string name="Nombres_registro">Nombres</string>
+    <string name="Apellidos_registro">Apellidos</string>
+    <string name="Correo_registro">Correo Electronico</string>
+    <string name="Telefono_registro">Telefono</string>
+    <string name="Contraseña_registro">Contraseña</string>
+    <string name="Repetir_contra_registro">"Repetir Contraseña|</string>
+    <string name="Terminos_condicioness">Terminos y condiciones</string>
+    <string name="Instruciones_recuperar_contraseña">Ingresa el correo electrónico asociado a tu cuenta y te enviaremos un enlace para restablecer tu contraseña.</string>
+    <string name="Correo_recuperación">Correo electronico de respaldo</string>
+    <string name="Enviar_recuperación">Enviar</string>
+    <string name="Recuperar_contrasena">Recuperar Contraseña</string>
+    <string name="Imagen">profile_image</string>
+    <string name="Volver_Inicio">Volver al inicio</string>
+    <string name="Google">Ingresa con Google</string>
+
+
+
+</resources>

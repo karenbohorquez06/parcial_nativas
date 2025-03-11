@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/Lila"
+    tools:context=".RegistroActivity">
+
+
+    <ImageView
+        android:id="@+id/logo_recuperar_contraseña"
+
+        android:layout_width="284dp"
+        android:layout_height="208dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/foto" />
+
+    <TextView
+        android:id="@+id/nombre_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alike_angular"
+        android:paddingTop="8dp"
+        android:text="Nombre"
+        android:textColor="@color/Blanco"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/apellidos_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alike_angular"
+        android:paddingTop="8dp"
+        android:text="Apellidos"
+        android:textColor="@color/Blanco"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/correo_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alike_angular"
+        android:paddingTop="8dp"
+        android:text="Correo Electrónico"
+        android:textColor="@color/Blanco"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/telefono_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alike_angular"
+        android:paddingTop="8dp"
+        android:text="Número de Teléfono"
+        android:textColor="@color/Blanco"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn_editar_perfil"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/Azul"
+        android:fontFamily="@font/alike_angular"
+        android:text="Editar"
+        android:textColor="@color/Blanco"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:strokeColor="@color/Morado"
+        app:strokeWidth="2dp"/>
+</LinearLayout>
